@@ -1,7 +1,7 @@
 // Axios Global
 axios.defaults.headers.common['X-Auth-Token']='someToken'
 
-// GET REQUEST
+// GET REQUEST 
 function getTodos() {
     axios
         .get('https://jsonplaceholder.typicode.com/todos?_limit=5')
